@@ -125,7 +125,6 @@ For Windows:
  ANSWER:
    Already installed Python and pip package manager, found below is the step by step installation guide
 
-
    Step 1: Download Python
 1.	Visit the Python website:
 •	Go to the Python download page.
@@ -156,18 +155,94 @@ Step 2: Install Python
 
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
-   
+
  ANSWER:
    Already installed Python and pip package manager
 
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
 
+   ANSWER:
+   Already installed MySQL, found below is the step by step installation guide
+
+   Step 1: Download MySQL
+1.	Visit the MySQL website:
+•	Go to the MySQL Downloads page.
+2.	Choose the installer:
+•	Click on "MySQL Installer for Windows".
+3.	Select the version:
+•	Choose the version you need. For most users, the "Windows (x86, 32-bit), MSI Installer" works fine. Click the "Download" button next to it.
+4.	Start the download:
+•	You will be redirected to the MySQL login page. You can either log in, sign up, or click "No thanks, just start my download" at the bottom to start the download without logging in.
+
+Step 2: Install MySQL
+1.	Run the installer:
+•	Double-click the downloaded .msi file to start the installation.
+2.	Choose setup type:
+•	You will see a "Choose Setup Type" screen. Select "Developer Default" to install MySQL Server and other MySQL products. Click "Next".
+3.	Check requirements:
+•	The installer will check for required software. If any prerequisites are missing, click "Execute" to install them.
+4.	Begin installation:
+•	After the requirements are installed, click "Next" and then "Execute" to start the installation of MySQL products.
+5.	Configure MySQL Server:
+•	Once the installation is complete, you will be prompted to configure MySQL Server. Click "Next".
+6.	High availability:
+•	Choose "Standalone MySQL Server / Classic MySQL Replication" and click "Next".
+7.	Type and Networking:
+•	Use the default configuration (Development Computer, TCP/IP enabled, port 3306). Click "Next".
+8.	Authentication method:
+•	Select "Use Strong Password Encryption for Authentication (RECOMMENDED)" and click "Next".
+9.	Set up MySQL root password:
+•	Enter and confirm a strong password for the MySQL root user. Optionally, you can add other MySQL users. Click "Next".
+10.	Windows service:
+•	Leave the default settings (check "Configure MySQL Server as a Windows Service" and "Start the MySQL Server at System Startup"). Click "Next".
+11.	Apply configuration:
+•	Review your configuration settings and click "Execute" to apply them.
+12.	Finish:
+•	Once the configuration is applied, click "Finish".
+
+Step 3: Verify the Installation
+1.	Open Command Prompt:
+•	Press Win + R, type cmd, and press Enter.
+2.	Connect to MySQL Server:
+•	In the Command Prompt, type the following command and press Enter:
+	mysql -u root -p
+•	Enter the root password you set during the installation.
+3.	Check the MySQL version:
+•	Once logged in, you can check the MySQL version by typing:
+	SELECT VERSION();
+•	Press Enter. You should see the version of MySQL displayed.
+
+Step 4: Configure Environment Variables (if needed)
+
+
 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
 
+   ANSWER:
+   Already created a  Python environment, found below are the commands for creating a python environment
+
+1. python -m pip install virtualenv(to install virtualenv on the system)
+2. python -m virtualenv "py-env"(create a new virtual environment)
+3. py-env\Scripts\activate(used to activate the environment)
+
 8. Explore Extensions and Plugins:
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
+
+   ANSWER:
+   Already Installed couple of vs code extensions, e.g
+
+   1. Code Runner
+   2. Live Server
+   3. Prettier
+   4. Auto Complete Tag
+   5. Auto Close Tag
+   6. Eslint
+   7. Dart
+   8.Jupyter
+   9.Intellicode
+   10.Live Sass Compiler
+
 
 9. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
