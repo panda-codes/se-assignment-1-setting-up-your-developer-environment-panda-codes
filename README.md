@@ -82,13 +82,83 @@ For Windows:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
 
    ANSWER:
-   Already installed Git Bash and already link my VS-Code with my Github before plp may cohort started but found below is the step by step guide for
+   Already installed Git Bash and already link my VS-Code with my Github before plp may cohort started but found below is the step by step guide for installing and configuration of Git on my local machine
+
+   Step 1: Download Git
+1.	Visit the Git website:
+•	Go to the Git download page.
+2.	Choose your operating system:
+•	Click on the download link for windows
+
+Step 2: Install Git on Your Operating System
+For Windows:
+1.	Run the installer:
+•	Double-click the downloaded .exe file to start the installation.
+2.	Accept the license agreement:
+•	Read and accept the license agreement by clicking "Next".
+3.	Select the installation location:
+•	Choose the destination folder for Git or leave it as the default, then click "Next".
+4.	Choose components:
+•	Select the components you want to install. It’s recommended to keep the default selections and click "Next".
+5.	Select the start menu folder:
+•	Choose the start menu folder or leave it as the default, then click "Next".
+6.	Adjusting your PATH environment:
+•	Choose "Git from the command line and also from 3rd-party software" for the most flexibility and click "Next".
+7.	Choosing the SSH executable:
+•	Use the bundled OpenSSH or your existing SSH installation and click "Next".
+8.	Choosing HTTPS transport backend:
+•	Select "Use the OpenSSL library" and click "Next".
+9.	Configuring the line ending conversions:
+•	Choose "Checkout Windows-style, commit Unix-style line endings" and click "Next".
+10.	Configuring the terminal emulator:
+•	Select "Use MinTTY (the default terminal of MSYS2)" and click "Next".
+11.	Configuring extra options:
+•	Select any additional options you prefer, then click "Next" and finally "Install".
+12.	Complete the installation:
+
+
+
 
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
 
+ ANSWER:
+   Already installed Python and pip package manager, found below is the step by step installation guide
+
+
+   Step 1: Download Python
+1.	Visit the Python website:
+•	Go to the Python download page.
+2.	Choose the version:
+•	Click on the latest Python release for Windows. For most users, the latest stable release is recommended.
+3.	Download the installer:
+•	Click on the "Windows installer (64-bit)" link to download the installer for 64-bit Windows. If you have a 32-bit system, click on the "Windows installer (32-bit)" link.
+
+
+Step 2: Install Python
+1.	Run the installer:
+•	Double-click the downloaded .exe file to start the installation.
+2.	Select installation options:
+•	Check "Add Python to PATH": This option is important as it allows you to run Python from the command line.
+•	Click "Customize installation" for more options or "Install Now" to proceed with the default settings.
+3.	Customize installation (optional):
+•	If you clicked "Customize installation":
+•	You can enable or disable optional features like pip, IDLE, and documentation.
+•	Click "Next" to continue.
+4.	Advanced options (optional):
+•	You can choose to install Python for all users and customize the installation directory.
+•	Click "Install" to proceed.
+5.	Wait for the installation to complete:
+•	The installer will copy files and set up Python on your system. This may take a few minutes.
+6.	Finish the installation:
+•	Once the installation is complete, you will see a "Setup was successful" message. Click "Close" to exit the installer.
+
+
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
+   
+ ANSWER:
+   Already installed Python and pip package manager
 
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
